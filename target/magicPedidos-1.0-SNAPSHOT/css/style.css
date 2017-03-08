@@ -7,6 +7,21 @@ and open the template in the editor.
     Created on : 08/03/2017, 09:50:04
     Author     : gregorio
 */
-html,body{
- 
+#login-dialog {
+width: 260px;
+margin: auto;
+margin-top: 20px;
+}
+.grid-login {
+background-color: #f2f2f2;
+border-radius: 8px;
+border: 1px solid #ccc;
+margin-top: 10px;
+padding: 20px;
+width: 100%
+}
+body,html{
+    background-image:url("../img/images.jpg");
+    height: 100%;
+    background-size: 100% 100%;
 }

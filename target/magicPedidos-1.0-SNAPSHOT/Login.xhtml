@@ -17,7 +17,8 @@ xmlns:p="http://primefaces.org/ui">
             <h1>Login</h1>
             <h:form id="frm">
             <p:messages autoUpdate="true" />
-            <h:panelGrid columns="2" styleClass="grid-login">
+            <h:panelGrid columns="1" styleClass="grid-login">
+                
                 <p:outputLabel value="Usuario" for="usuario"/>
                 <p:inputText id="usuario" size="20"
                              value="#{LoginBean.nomeUsuario}"/>
